@@ -402,5 +402,5 @@ int main()
 
     //Now Decrypting message using portalB private key(d)
     string dMessage=portalB.decryptMessage(cypherText);
-    cout<<"Decrypted Message decrpted at company B using its private key(d): "<<dMessage;
+    cout<<"Decrypted Message decrpted at portal B using its private key(d): "<<dMessage;
 	}
